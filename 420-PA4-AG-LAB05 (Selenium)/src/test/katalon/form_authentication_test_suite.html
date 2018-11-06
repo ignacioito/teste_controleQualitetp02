@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>form_authentication_test_suite</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">successful_login_test</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://the-internet.herokuapp.com/<datalist><option>http://the-internet.herokuapp.com/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Form Authentication<datalist><option>link=Form Authentication</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Floating Menu'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Frames'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Geolocation'])[1]/preceding::a[2]</option><option>//a[contains(text(),'Form Authentication')]</option><option>//div[@id='content']/ul/li[18]/a</option><option>//a[contains(@href, '/login')]</option><option>//li[18]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=username<datalist><option>id=username</option><option>name=username</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='SuperSecretPassword!'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]</option><option>//input[@id='username']</option><option>//form[@id='login']/div/div/input</option><option>//input</option><option>css=#username</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=username<datalist><option>id=username</option><option>name=username</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='SuperSecretPassword!'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[2]</option><option>//input[@id='username']</option><option>//form[@id='login']/div/div/input</option><option>//input</option><option>css=#username</option></datalist></td><td>tomsmith</td>
+</tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::input[1]</option><option>//input[@id='password']</option><option>//form[@id='login']/div[2]/div/input</option><option>//div[2]/div/input</option><option>css=#password</option></datalist></td><td>SuperSecretPassword!</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</option><option>//button[@type='submit']</option><option>//form[@id='login']/button</option><option>//button</option><option>css=button.radius</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
